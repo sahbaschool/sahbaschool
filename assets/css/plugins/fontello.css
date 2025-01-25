@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('font/fontello.eot?65176178');
+    src: url('font/fontello.eot?65176178#iefix') format('embedded-opentype'),
+         url('font/fontello.woff2?65176178') format('woff2'),
+         url('font/fontello.woff?65176178') format('woff'),
+         url('font/fontello.ttf?65176178') format('truetype'),
+         url('font/fontello.svg?65176178#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+  /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+  /*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('font/fontello.svg?65176178#fontello') format('svg');
+    }
+  }
+  */
+   
+   [class^="fn-icon-"]:before, [class*=" fn-icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+   
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+   
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+   
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+   
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+   
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+   
+  .fn-icon-lock:before { content: '\e800'; } /* 'î €' */
+  .fn-icon-ok:before { content: '\e801'; } /* 'î ' */
+  .fn-icon-basket:before { content: '\e802'; } /* 'î ‚' */
+  .fn-icon-vk:before { content: '\e803'; } /* 'î ƒ' */
+  .fn-icon-facebook-1:before { content: '\e804'; } /* 'î „' */
+  .fn-icon-twitter-1:before { content: '\e805'; } /* 'î …' */
+  .fn-icon-pinterest-1:before { content: '\e806'; } /* 'î †' */
+  .fn-icon-linkedin-1:before { content: '\e807'; } /* 'î ‡' */
+  .fn-icon-vimeo:before { content: '\e808'; } /* 'î ˆ' */
+  .fn-icon-email:before { content: '\e809'; } /* 'î ‰' */
+  .fn-icon-github:before { content: '\e80a'; } /* 'î Š' */
+  .fn-icon-flickr:before { content: '\e80b'; } /* 'î ‹' */
+  .fn-icon-dribbble:before { content: '\e80c'; } /* 'î Œ' */
+  .fn-icon-dropbox:before { content: '\e80d'; } /* 'î ' */
+  .fn-icon-paypal:before { content: '\e80e'; } /* 'î Ž' */
+  .fn-icon-soundcloud:before { content: '\e80f'; } /* 'î ' */
+  .fn-icon-skype:before { content: '\e810'; } /* 'î ' */
+  .fn-icon-rss:before { content: '\e811'; } /* 'î ‘' */
+  .fn-icon-twitter:before { content: '\f099'; } /* 'ï‚™' */
+  .fn-icon-facebook:before { content: '\f09a'; } /* 'ï‚š' */
+  .fn-icon-linkedin:before { content: '\f0e1'; } /* 'ïƒ¡' */
+  .fn-icon-rocket:before { content: '\f135'; } /* 'ï„µ' */
+  .fn-icon-youtube-play:before { content: '\f16a'; } /* 'ï…ª' */
+  .fn-icon-instagram-1:before { content: '\f16d'; } /* 'ï…­' */
+  .fn-icon-vkontakte:before { content: '\f189'; } /* 'ï†‰' */
+  .fn-icon-slack:before { content: '\f198'; } /* 'ï†˜' */
+  .fn-icon-wechat:before { content: '\f1d7'; } /* 'ï‡—' */
+  .fn-icon-pinterest:before { content: '\f231'; } /* 'ïˆ±' */
+  .fn-icon-whatsapp:before { content: '\f232'; } /* 'ïˆ²' */
+  .fn-icon-vimeo-1:before { content: '\f27d'; } /* 'ï‰½' */
+  .fn-icon-telegram:before { content: '\f2c6'; } /* 'ï‹†' */
+  .fn-icon-github-1:before { content: '\f300'; } /* 'ïŒ€' */
+  .fn-icon-icq:before { content: '\f304'; } /* 'ïŒ„' */
+  .fn-icon-gplus:before { content: '\f30f'; } /* 'ïŒ' */
+  .fn-icon-instagram:before { content: '\f32d'; } /* 'ïŒ­' */
+  .fn-icon-picasa:before { content: '\f345'; } /* 'ï…' */
+  .fn-icon-behance:before { content: '\f34e'; } /* 'ïŽ' */
